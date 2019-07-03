@@ -1,6 +1,7 @@
 # Navigation
-
 DQN agent
+
+<img src="img/banana-collector.gif" height="200">
 
 1. conda create --name navigation python=3.6
 2. conda activate navigation

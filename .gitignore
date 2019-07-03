@@ -24,8 +24,7 @@ __pycache__
 *.bak
 .ipynb_checkpoints
 .tox
-.log
-.pth
+*.log
 .DS_Store
 \#*#
 .#*

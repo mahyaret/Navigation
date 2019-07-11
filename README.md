@@ -5,11 +5,7 @@ DQN agent
 
 ### Introduction
 
-For this project, an agent is trained to navigate and collect objects in a square world.  
-
-![Trained Agent][image1]
-
-A reward of +1 is provided for collecting a yellow object, and a reward of -1 is provided for collecting a blue object.  Thus, the goal of the agent is to collect as many yellow objects as possible while avoiding blue objects.  
+For this project, an agent is trained to navigate and collect objects in a square world. A reward of +1 is provided for collecting a yellow object, and a reward of -1 is provided for collecting a blue object.  Thus, the goal of the agent is to collect as many yellow objects as possible while avoiding blue objects.  
 
 The task is episodic, and the environment is considered to be solved, when the agent gets an average score of +13 over 100 consecutive episodes.
 

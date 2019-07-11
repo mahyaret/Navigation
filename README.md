@@ -3,6 +3,31 @@ DQN agent
 
 <img src="img/banana-collector.gif" height="200">
 
+### Introduction
+
+For this project, an agent is trained to navigate and collect objects in a square world.  
+
+![Trained Agent][image1]
+
+A reward of +1 is provided for collecting a yellow object, and a reward of -1 is provided for collecting a blue object.  Thus, the goal of the agent is to collect as many yellow objects as possible while avoiding blue objects.  
+
+The task is episodic, and the environment is considered to be solved, when the agent gets an average score of +13 over 100 consecutive episodes.
+
+#### State-Action Represenation
+
+- Observation space type: continuous
+    - Observation space size (per agent): 37, corresponding to:
+        - velocity of agent
+        - ray-based perception of objects around agent's forward direction
+- Action space type: discrete
+    - Action space size (per agent): 4, corresponding to:
+        - 0: move forward
+        - 1: move backward
+        - 2: turn left
+        - 3: turn right
+
+### Getting Started
+
 1. conda create --name navigation python=3.6
 2. conda activate navigation
 3. conda install jupyter
@@ -18,3 +43,4 @@ DQN agent
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+10. Follow the instructions in `Navigation.ipynb` to get started!

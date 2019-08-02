@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahyaret/Navigation/blob/master/Navigation.ipynb)
+
 # Navigation
 DQN agent
 
